@@ -1,0 +1,9 @@
+Pasos para crear una keytool para firebes en flutter
+1.- se abre esta pagina https://developers.google.com/android/guides/client-auth
+2.- en caso de ser windows se copea el link de windows
+3.- abrimos powershell
+4.- en caso de no tener jdk instalado, se instala y se pone en variables de entorno de usuario o en las dos xd
+5.- reiniciamos el pc
+6.- colocamos este comando en power shell  keytool -exportcert -keystore C:\Users\<your_user>\.android\debug.keystore -list -v
+7.- en caso de que se cree app para android se debe de poner la contraseña android
+Listo!!
